@@ -3,7 +3,7 @@
 Make your R life simpler and faster:
 
 ```R
-if (!require(K.R)) install_github('robertzk/k')
+if (!require(K.R)) devtools::install_github('robertzk/k')
 library(K.R)
 
 a(iris[1:4], 1, sum) # apply
