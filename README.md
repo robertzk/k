@@ -1,4 +1,4 @@
-"K" for R -- all the built ins are really short!
+["K"](https://github.com/kevinlawler/kona) for R -- all the built ins are really short!
 
 Make your R life simpler and faster:
 
