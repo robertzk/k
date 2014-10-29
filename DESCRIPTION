@@ -1,0 +1,18 @@
+Package: rk
+Type: Package
+Title: rk
+Version: 0.1.0
+Description: A collection of very shortly named functions for R, in
+    the spirit of the K programming language.
+Author: Robert Krzyzanowski <technoguyrob@gmail.com>
+Maintainer: Robert Krzyzanowski <technoguyrob@gmail.com>
+Authors@R: c(person("Robert", "Krzyzanowski",
+    email = "technoguyrob@gmail.com", role = c("aut", "cre")))
+Depends:
+    R (>= 3.0.0)
+Suggests:
+    testthat,
+    microbenchmark
+License: MIT
+LazyData: true
+Roxygen: list(wrap = FALSE)
