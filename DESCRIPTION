@@ -1,6 +1,6 @@
-Package: rk
+Package: K.R
 Type: Package
-Title: rk
+Title: K.R
 Version: 0.1.0
 Description: A collection of very shortly named functions for R, in
     the spirit of the K programming language.
