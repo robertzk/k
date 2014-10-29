@@ -1,6 +1,3 @@
-k
-=
-
 "K" for R -- all the built ins are really short!
 
 Make your R life simpler and faster:
