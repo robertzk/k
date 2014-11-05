@@ -50,3 +50,7 @@ v <- base::vapply
 #' @export
 w <- base::which
 
+#' @export
+D <- debug
+#' @export
+D1 <- debugonce
