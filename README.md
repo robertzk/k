@@ -28,5 +28,8 @@ tt(1:100, rep(1:10, 10), sum) # tapply
 u(l(1:10, seq_len)) # unlist
 v(1:10, as.character, character(1)) # vapply
 w(s(iris,is.factor))
+
+D(fn)  # debug(fn)
+D1(fn) # debugonce(fn)
 ```
 
