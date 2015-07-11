@@ -31,5 +31,11 @@ w(s(iris,is.factor))
 
 D(fn)  # debug(fn)
 D1(fn) # debugonce(fn)
+
+# Infix operators
+1:5 %each% print
+1:5 %eachdo% { print(. + 1) }
+1:5 %map% function(x) x + 1
+1:5 %mapdo% { . + 1 }
 ```
 
