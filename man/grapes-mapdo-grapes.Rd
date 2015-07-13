@@ -6,6 +6,6 @@
 obj \%mapdo\% expr
 }
 \examples{
-1:5 \%mapdo\% { . + 1 }
+1:5 \%\%mapdo\%\% { . + 1 }
 }
 

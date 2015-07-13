@@ -6,6 +6,6 @@
 obj \%each\% fn
 }
 \examples{
-1:5 \%each\% print
+1:5 \%\%each\%\% print
 }
 
