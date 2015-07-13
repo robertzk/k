@@ -6,6 +6,6 @@
 X \%map\% FUN
 }
 \examples{
-1:5 \%map\% function(x) x + 1
+1:5 \%\%map\%\% function(x) x + 1
 }
 

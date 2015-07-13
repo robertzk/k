@@ -6,6 +6,6 @@
 obj \%eachdo\% expr
 }
 \examples{
-1:5 \%eachdo\% { . + 1 }
+1:5 \%\%eachdo\%\% { . + 1 }
 }
 

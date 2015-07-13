@@ -1,12 +1,12 @@
 #' @export
-#' @examples 1:5 %each% print
+#' @examples 1:5 %%each%% print
 `%each%` <- function(obj, fn) {
   lapply(obj, fn, ...)
   invisible(obj)
 }
 
 #' @export
-#' @examples 1:5 %eachdo% { . + 1 }
+#' @examples 1:5 %%eachdo%% { . + 1 }
 `%eachdo%` <- function(obj, expr) {
   env <- parent.frame()
   expr <- substitute(expr)
@@ -17,11 +17,11 @@
 }
 
 #' @export
-#' @examples 1:5 %map% function(x) x + 1
+#' @examples 1:5 %%map%% function(x) x + 1
 `%map%` <- lapply
 
 #' @export
-#' @examples 1:5 %mapdo% { . + 1 }
+#' @examples 1:5 %%mapdo%% { . + 1 }
 `%mapdo%` <- function(obj, expr) {
   env <- parent.frame()
   expr <- substitute(expr)
