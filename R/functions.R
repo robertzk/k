@@ -54,3 +54,6 @@ w <- base::which
 D <- debug
 #' @export
 D1 <- debugonce
+
+#' @export
+csv <- read.csv
